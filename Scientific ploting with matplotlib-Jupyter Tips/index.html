@@ -1,0 +1,49 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"><title>Yi's Website</title><meta name="author" content="Yi Qiu"><link rel="shortcut icon" href="/img/favicon.png"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0"></head><body><header id="page_header"><div class="header_wrap"><div id="blog_name"><a class="blog_title" id="site-name" href="/">Yi's Website</a></div><button class="menus_icon"><div class="navicon"></div></button><ul class="menus_items"><li class="menus_item"><a class="site-page" href="/research"> Research Experiences</a></li><li class="menus_item"><a class="site-page" href="/About-me"> About Me</a></li><li class="menus_item"><a class="site-page" href="/Blogs-Notes"> Blogs</a></li><li class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://imqiuyi.com/arXiv Daily/"> ArXiv Notes</a></li></ul></div></header><main id="page_main"><div class="side-card sticky"><div class="card-wrap" itemscope itemtype="http://schema.org/Person"><div class="author-avatar"><img class="avatar-img" src="/img/MEold.JPG" onerror="this.onerror=null;this.src='/img/MEold.JPG'" alt="avatar"></div><div class="author-discrip"><h3>Yi Qiu</h3><p class="author-bio">Ph.D. student in Physics Department of Pennsylvania State University.</p></div><div class="author-links"><button class="btn m-social-links">Links</button><ul class="social-links"><li><a class="e-social-link" href="mailto:yiqiu@psu.edu" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i><span>yiqiu@psu.edu</span></a></li></ul></div><a class="cv-links" href="/attaches/CV_2023.pdf" target="_blank"><i class="fas fa-file-pdf" aria-hidden="true"><span>My CV</span></i></a></div></div><div class="page" itemscope itemtype="http://schema.org/CreativeWork"><h2 class="page-title"></h2><article><h2 id="scientific-ploting-guide">Scientific ploting guide</h2>
+<h4 id="genreal-idea">Genreal idea</h4>
+<ol type="1">
+<li>Ticks pointing inward.</li>
+<li>labels with different linestyle, colors, etc.</li>
+<li>large text size in labels, usually larger than the text surrounding.</li>
+<li>Use tight layout for the figure. e.g. <code>plt.savefig('../test.pdf',bbox_inches='tight')</code></li>
+<li>Remember to add legend if you have multiple data in the same plot.</li>
+</ol>
+<h4 id="reference">Reference</h4>
+<ol type="1">
+<li><a target="_blank" rel="noopener" href="https://github.com/garrettj403/SciencePlots">Scientific plot</a> package.</li>
+<li><a target="_blank" rel="noopener" href="https://ora.ox.ac.uk/objects/uuid:d47fbf3b-1cf3-4e58-be97-767b9893066e/download_file?file_format=application%2Fpdf&amp;safe_filename=GarrettJ_DPhilThesis.pdf&amp;type_of_work=Thesis">One example</a> by the developer of the package.</li>
+<li>Guide from Matplotlib.</li>
+<li>Others, <a target="_blank" rel="noopener" href="https://poorvucenter.yale.edu/sites/default/files/files/RStewart_figuremaking.pdf">1</a>.</li>
+</ol>
+<h4 id="advanced-techniques">Advanced techniques</h4>
+<ol type="1">
+<li>Zoom in for one plot. See reference <a target="_blank" rel="noopener" href="https://members.cbio.mines-paristech.fr/~nvaroquaux/tmp/matplotlib/examples/axes_grid1/inset_locator_demo2.html">here</a>.</li>
+</ol>
+<h2 id="jupyter-tips">Jupyter Tips</h2>
+<p>Tooltip Pressing Shift-Tab will show a tooltip for the function or class your cursor is on:</p>
+<figure>
+<img src="https://raw.githubusercontent.com/EinsQE/image_public/main/img/202310311353262.png" alt="Screen Shot 2023-10-31 at 1.53.57 PM" /><figcaption aria-hidden="true">Screen Shot 2023-10-31 at 1.53.57 PM</figcaption>
+</figure>
+<p>Another <code>iPython</code> feature - running shell commands inside a notebook:</p>
+<figure>
+<img src="https://raw.githubusercontent.com/EinsQE/image_public/main/img/202310311354333.png" alt="img" /><figcaption aria-hidden="true">img</figcaption>
+</figure>
+<p>You can use this to automatically install packages in the first cell of a notebook — make sure to use the <code>-q</code> flag to hide the output:</p>
+<figure>
+<img src="https://raw.githubusercontent.com/EinsQE/image_public/main/img/202310311355326.png" alt="img" /><figcaption aria-hidden="true">img</figcaption>
+</figure>
+<h4 id="jupyter-lab-keyboard-shortcuts-cheat-sheet">Jupyter Lab Keyboard Shortcuts Cheat Sheet</h4>
+<p>Below is a list of the most useful keyboard shortcuts in Jupyter Lab:</p>
+<ul>
+<li><code>Cmd B</code> = toggle sidebar</li>
+<li><code>Alt W</code> = close tab</li>
+<li><code>Enter</code>= to move from Command to Edit</li>
+<li><code>Escape</code> = to move from Edit to Command</li>
+<li><code>Shift Enter</code> = run cell</li>
+</ul>
+<h4 id="command-mode">Command Mode</h4>
+<p>- <code>a</code> = insert cell above - <code>b</code> = insert cell below - <code>d</code> = delete cell - <code>z</code> = undo cell - <code>shift z</code> = redo cell - <code>m</code> = change cell to Markdown - <code>y</code> = change cell to code</p>
+<h4 id="text-mode">Text mode</h4>
+<p>- <code>Cmd Z</code> = undo text - <code>Shift Cmd Z</code> = redo text</p>
+</article></div></main><div class="nav-wrap"><div class="nav"><button class="site-nav"><div class="navicon"></div></button><ul class="nav_items"><li class="nav_item"><a class="nav-page" href="/research"> Research Experiences</a></li><li class="nav_item"><a class="nav-page" href="/About-me"> About Me</a></li><li class="nav_item"><a class="nav-page" href="/Blogs-Notes"> Blogs</a></li><li class="nav_item"><a class="nav-page" target="_blank" rel="noopener" href="https://imqiuyi.com/arXiv Daily/"> ArXiv Notes</a></li></ul></div><div class="cd-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></div><footer id="page_footer"><div class="footer_wrap"><div class="copyright">&copy;2020 - 2023 by Yi Qiu</div><div class="theme-info">Powered by <a target="_blank" href="https://hexo.io" rel="nofollow noopener">Hexo</a> & <a target="_blank" href="https://github.com/PhosphorW/hexo-theme-academia" rel="nofollow noopener">Academia Theme</a></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js"></script><script src="/js/main.js"></script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script></body></html>

@@ -1499,4 +1499,156 @@
 <li>add OM4.</li>
 </ul></li>
 </ol>
+<h2 id="section-79">8-23</h2>
+<ol type="1">
+<li>export LAL_DATA_PATH = nrsur_path:$LAL_DATA_PATH</li>
+<li>/work/shilpa.kastha/open_catalog/lal_data_for_NRSur/NRSur7dq4.h5</li>
+</ol>
+<h2 id="section-80">8-31</h2>
+<p>Venv solution:</p>
+<ol type="1">
+<li>In VSCode open your command palette — <code>Ctrl+Shift+P</code> by default</li>
+<li>Look for <code>Python: Select Interpreter</code></li>
+<li>In <code>Select Interpreter</code> choose <code>Enter interpreter path...</code> and then <code>Find...</code></li>
+<li>Navigate to your <code>venv</code> folder — eg, <code>~/pyenvs/myenv/</code> or <code>\Users\Foo\Bar\PyEnvs\MyEnv\</code></li>
+<li>In the virtual environment folder choose <code>&lt;your-venv-name&gt;/bin/python</code> or <code>&lt;your-venv-name&gt;/bin/python3</code></li>
+</ol>
+<h2 id="section-81">9-22</h2>
+<ol type="1">
+<li>Todo:
+<ul>
+<li>Mismatch: try fixing the phase or grid on other parameters.</li>
+<li>Calculate the epsilon for PhenomD.</li>
+<li>Test with OM with 4 parameters.</li>
+<li>Different waveform for Ext:CCE.</li>
+</ul></li>
+</ol>
+<h2 id="section-82">9-25</h2>
+<ol type="1">
+<li>Updates:
+<ul>
+<li>Bayes factor</li>
+</ul></li>
+<li>To discuss:
+<ul>
+<li>Reasoning on instability</li>
+<li>EXTCCE.</li>
+</ul></li>
+<li>In-progress:
+<ul>
+<li>Epsilon/mismatch plot update.</li>
+<li>different time.</li>
+<li>different time for 4 parameters of OM3.</li>
+</ul></li>
+</ol>
+<h2 id="section-83">9-26</h2>
+<ol type="1">
+<li>Updates with Pierre</li>
+<li>Timeline/Todo list
+<ul>
+<li>Draft leftover
+<ul>
+<li>Intro (Xisco)</li>
+<li>Abstract</li>
+<li>Conclusion (Xisco)</li>
+<li>Results on different waveform as a table (Yi)</li>
+</ul></li>
+<li>Timeline
+<ul>
+<li>Section3 first review (Pierre)</li>
+<li>1st week, results + intro/conclusion</li>
+<li>2nd week, later results + review</li>
+<li>3rd week, last review.</li>
+</ul></li>
+<li>Works in parallel
+<ul>
+<li>Different time for 4par OM3</li>
+<li>Different time for OM0-2</li>
+<li>Change the fix4par to sample the highest tone's amp/phase.</li>
+<li>Test with other waveform with different truncating times.</li>
+</ul></li>
+</ul></li>
+</ol>
+<h2 id="section-84">10-3</h2>
+<ol type="1">
+<li><p>Which sections in results?</p>
+<ul>
+<li><p>Subsection A: Bayes factor (potentially also TCTM, HTPM)</p></li>
+<li><p>Subsection B: bias plot</p></li>
+<li><p>Subsection C: different time</p></li>
+<li><p>Subsection D: different waveform</p></li>
+</ul></li>
+<li><p>Which sections in appendix?</p>
+<ul>
+<li>4par version rubustness test (with both different time and bias plots) on OM?</li>
+<li>Ext-CCE different time plot (or discussion in subsection D)?</li>
+<li>prior tests.</li>
+</ul></li>
+<li><p>Others</p>
+<ul>
+<li>Try to do HTPM1 sampling.</li>
+</ul></li>
+</ol>
+<h2 id="section-85">10-6</h2>
+<ol type="1">
+<li>Updates:
+<ul>
+<li>Different time for ExtCCE still running</li>
+<li>Result/appendix part should be done by next</li>
+</ul></li>
+<li>To be discussed:
+<ul>
+<li>Confirm about the plan of plots.
+<ul>
+<li>2 plots for bias. (1 add TCTM, 2 remove one of the overtone model, change color and range.)</li>
+<li>Sub A/D come with tables.</li>
+<li>Different t0 stays the same (optionally add TCTM0)</li>
+</ul></li>
+<li>message to convey in each result section.</li>
+<li>Introduction to the 4par model? (in results section)</li>
+<li>which models to put into the plot.</li>
+<li>Timeline for finalizing the project.</li>
+</ul></li>
+</ol>
+<h2 id="section-86">10-11</h2>
+<ol type="1">
+<li><p>Discussion</p>
+<ul>
+<li><p>Shorthanded terms.</p>
+<p>RD, NR, IMRPhenomD (change the plot), OM, change the bold model name to normal in text.</p>
+<p>For all the OM, use <span class="math inline">\(\text{OM}_n\)</span>, u</p></li>
+<li><p>table caption</p></li>
+</ul></li>
+<li><p>How to proceed.</p>
+<ul>
+<li>Add HTPM1</li>
+</ul></li>
+<li><p>Updates:</p>
+<ul>
+<li>Fig. 3: HTPM1, TCTM1, OM2, PhenomD (optionally TCTM0).</li>
+<li>Remove 4-par models (maybe appendix).</li>
+<li>appendix priors description (refer to ligo catalog paper.)</li>
+</ul></li>
+<li><p>Remaining test</p>
+<p>-Ext-CCE other result in appendix</p></li>
+</ol>
+<h2 id="section-87">10-25</h2>
+<ol type="1">
+<li><p>HTPM/TCTM</p>
+<ul>
+<li>what message should we give</li>
+<li>prior looks fine on HTPM?</li>
+</ul></li>
+<li><p>Plan</p>
+<ul>
+<li>appendix2 with corner plots for ExtCCE:002.</li>
+<li>Extend the Table 2 to include all bayes evidence the same as Table 1?</li>
+<li>Others?</li>
+</ul></li>
+<li><p>Timeline for writing:</p></li>
+<li><p>Notes for shortcut:</p>
+<ul>
+<li>RD, BH</li>
+</ul></li>
+</ol>
 </article></div></main><div class="nav-wrap"><div class="nav"><button class="site-nav"><div class="navicon"></div></button><ul class="nav_items"><li class="nav_item"><a class="nav-page" href="/research"> Research Experiences</a></li><li class="nav_item"><a class="nav-page" href="/About-me"> About Me</a></li><li class="nav_item"><a class="nav-page" href="/Blogs-Notes"> Blogs</a></li><li class="nav_item"><a class="nav-page" target="_blank" rel="noopener" href="https://imqiuyi.com/arXiv Daily/"> ArXiv Notes</a></li></ul></div><div class="cd-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></div><footer id="page_footer"><div class="footer_wrap"><div class="copyright">&copy;2020 - 2023 by Yi Qiu</div><div class="theme-info">Powered by <a target="_blank" href="https://hexo.io" rel="nofollow noopener">Hexo</a> & <a target="_blank" href="https://github.com/PhosphorW/hexo-theme-academia" rel="nofollow noopener">Academia Theme</a></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js"></script><script src="/js/main.js"></script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script></body></html>

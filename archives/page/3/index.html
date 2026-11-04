@@ -1,65 +1,81 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"><title>Yi's Website</title><meta name="author" content="Yi Qiu"><link rel="shortcut icon" href="/img/favicon.png"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><!-- hexo injector head_end start -->
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"><title>Yi's Website</title><script>(function () {
+    var choice = null;
+    try { choice = localStorage.getItem("theme-choice"); localStorage.removeItem("theme"); } catch (e) {}
+    var dark = choice ? choice === "dark" : !!(window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
+    document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+})();</script><meta name="author" content="Yi Qiu"><link rel="shortcut icon" href="/img/favicon.png"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"><!-- hexo injector head_end start -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
-<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0"></head><body><header id="page_header"><div class="header_wrap"><div id="blog_name"><a class="blog_title" id="site-name" href="/">Yi's Website</a></div><button class="menus_icon"><div class="navicon"></div></button><ul class="menus_items"><li class="menus_item"><a class="site-page" href="/research"> Research Experiences</a></li><li class="menus_item"><a class="site-page" href="/About-me"> About Me</a></li><li class="menus_item"><a class="site-page" href="/Blogs-Notes"> Blogs</a></li><li class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://yiqiu99.github.io/arXiv Daily/"> ArXiv Notes</a></li><li class="menus_item"><a class="site-page" href="/Gallery"> Gallery</a></li></ul><!-- Theme Switcher (added here)--><div id="header-theme"><input type="checkbox" id="theme-switch"><label for="theme-switch"></label></div></div></header><main id="page_main"><div class="side-card sticky"><div class="card-wrap" itemscope itemtype="http://schema.org/Person"><div class="author-avatar"><img class="avatar-img" src="/img/MEold.JPG" onerror="this.onerror=null;this.src='/img/MEold.JPG'" alt="avatar"></div><div class="author-discrip"><h3>Yi Qiu</h3><p class="author-bio">Ph.D. student in Physics Department of Pennsylvania State University.</p></div><div class="author-links"><button class="btn m-social-links">Links</button><ul class="social-links"><li><a class="e-social-link" href="mailto:yiqiu@psu.edu" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i><span>yiqiu@psu.edu</span></a></li></ul></div><a class="cv-links" href="/attaches/CV_2025.pdf" target="_blank"><i class="fas fa-file-pdf" aria-hidden="true"><span>My CV</span></i></a></div></div><div class="page" itemscope itemtype="http://schema.org/CreativeWork"><article><p><strong>WELCOME!!</strong></p>
-<p>Hi, I’m Yi Qiu (邱弋 qi&umacr; y&igrave;), welcome to my website!</p>
-<p>I joined Penn State in fall 2022, now I am a Ph.D. candidate in Physics. Prior to that, I graduate from Dalian University of Technology with a bachelor degree in Physics. Prior to that, I was born and raised in Fuzhou, southeast China.</p>
-</article></div></main><div class="nav-wrap"><div class="nav"><button class="site-nav"><div class="navicon"></div></button><ul class="nav_items"><li class="nav_item"><a class="nav-page" href="/research"> Research Experiences</a></li><li class="nav_item"><a class="nav-page" href="/About-me"> About Me</a></li><li class="nav_item"><a class="nav-page" href="/Blogs-Notes"> Blogs</a></li><li class="nav_item"><a class="nav-page" target="_blank" rel="noopener" href="https://yiqiu99.github.io/arXiv Daily/"> ArXiv Notes</a></li><li class="nav_item"><a class="nav-page" href="/Gallery"> Gallery</a></li></ul></div><div class="cd-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></div><footer id="page_footer"><div class="footer_wrap"><div class="copyright">&copy;2020 - 2025 by Yi Qiu</div><div class="theme-info">Powered by <a target="_blank" href="https://hexo.io" rel="nofollow noopener">Hexo</a> & <a target="_blank" href="https://github.com/PhosphorW/hexo-theme-academia" rel="nofollow noopener">Academia Theme</a></div></div><script>// Include the dark mode toggle JavaScript file
-const toggleTheme = document.querySelector('input#theme-switch[type="checkbox"]');
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0"></head><body><header id="page_header"><div class="header_wrap"><div id="blog_name"><a class="blog_title" id="site-name" href="/">Yi's Website</a></div><button class="menus_icon"><div class="navicon"></div></button><ul class="menus_items"><li class="menus_item"><a class="site-page" href="/research"> Research</a></li><li class="menus_item"><a class="site-page" href="/Publications"> Publications</a></li><li class="menus_item"><a class="site-page" href="/About-me"> About Me</a></li><li class="menus_item"><a class="site-page" href="/Blogs-Notes"> Blogs</a></li><li class="menus_item"><a class="site-page" href="/arXiv%20Daily-2025/"> ArXiv Notes</a></li><li class="menus_item"><a class="site-page" href="/Gallery"> Gallery</a></li></ul><!-- Theme Switcher (added here)--><div id="header-theme"><input type="checkbox" id="theme-switch"><label for="theme-switch"></label></div></div></header><main id="page_main"><div class="side-card sticky"><div class="card-wrap" itemscope itemtype="http://schema.org/Person"><div class="author-avatar"><img class="avatar-img" src="/img/MEold.JPG" onerror="this.onerror=null;this.src='/img/MEold.JPG'" alt="avatar"></div><div class="author-discrip"><h3>Yi Qiu</h3><p class="author-bio">Ph.D. candidate in Physics, The Pennsylvania State University.</p></div><div class="author-links"><button class="btn m-social-links">Links</button><ul class="social-links"><li><a class="e-social-link" href="mailto:yiqiu@psu.edu" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i><span>yiqiu@psu.edu</span></a></li><li><a class="e-social-link" href="https://orcid.org/0009-0008-0470-2460" target="_blank"><i class="ai ai-orcid" aria-hidden="true"></i><span>ORCID</span></a></li><li><a class="e-social-link" href="https://scholar.google.com/citations?user=n5VqXekAAAAJ" target="_blank"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a></li><li><a class="e-social-link" href="https://inspirehep.net/authors/2933736" target="_blank"><i class="icon-inspire" aria-hidden="true"></i><span>INSPIRE-HEP</span></a></li><li><a class="e-social-link" href="https://github.com/yiqiu0714" target="_blank"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a></li></ul></div><a class="cv-links" href="/attaches/CV_2026.pdf" target="_blank"><i class="fas fa-file-pdf" aria-hidden="true"><span>My CV</span></i></a></div></div><div class="page" itemscope itemtype="http://schema.org/CreativeWork"><article><p><strong>WELCOME!!</strong></p>
+<p>Hi, I'm Yi Qiu (邱弋 qiū yì), welcome to my website!</p>
+<p>I'm a Ph.D. candidate in Physics at Penn State, working with <a target="_blank" rel="noopener" href="https://personal.science.psu.edu/dur566/">Prof. David Radice</a> on computational astrophysics. I use numerical relativity simulations to study neutron star mergers, with a focus on neutrino transport and neutrino flavor conversions, and how they shape the merger ejecta, nucleosynthesis, and multi-messenger signals.</p>
+<p>Before Penn State, I was a research assistant in astronomy at Nanjing University, and I received my B.S. in Applied Physics from Dalian University of Technology. I'm originally from <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Fuzhou">Fuzhou</a>, China.</p>
+<h2 id="news">News</h2>
+<ul>
+<li><strong>Oct 2026</strong> — New paper on arXiv: <em>A Hybrid Neural Network Emulator for M1 Neutrino Reaction Rates in Binary Neutron Star Merger Simulations</em> [<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2610.28740">arXiv:2610.28740</a>]</li>
+<li><strong>Oct 2026</strong> — Invited seminar at INFN-TIFPA, University of Trento, Italy.</li>
+<li><strong>Sep 2026</strong> — Talk at the <a target="_blank" rel="noopener" href="https://indico.ectstar.eu/event/271/">ECT*-EMMI/GSI workshop</a> on magnetic fields, nuclear physics, and nucleosynthesis in neutron-star mergers and supernovae, Trento, Italy.</li>
+<li><strong>Jul 2026</strong> — Flash talk at the AthenaK Summer School, Penn State.</li>
+<li><strong>Jun 2026</strong> — Received the China Scholarship Council Award for Outstanding Students Abroad.</li>
+<li><strong>May 2026</strong> — Talk at the <a target="_blank" rel="noopener" href="https://www.black-holes.org/egm2026">25th Eastern Gravity Meeting</a>, Cornell University.</li>
+<li><strong>Apr 2026</strong> — Awarded the DOE-INFN Summer Exchange Fellowship.</li>
+<li><strong>Mar 2026</strong> — Talks at the <a target="_blank" rel="noopener" href="https://meetings-archive.aps.org/smt/2026/apr-h82/4/">APS Global Physics Summit</a> (Denver) and the <a target="_blank" rel="noopener" href="https://indico.phys.sinica.edu.tw/event/345/">Collective Neutrino Oscillations workshop</a> at Academia Sinica, Taiwan.</li>
+<li><strong>Feb 2026</strong> — Talk at the <a target="_blank" rel="noopener" href="https://www2.yukawa.kyoto-u.ac.jp/~mm2026/">YITP long-term workshop</a> <em>Multi-Messenger Astrophysics in the Dynamic Universe</em>, Kyoto University.</li>
+<li><strong>Jan 2026</strong> — Invited speaker in the <a target="_blank" rel="noopener" href="https://sites.uw.edu/risingresearchers/yiqiu/">INT Rising Researchers Seminar Series</a>, University of Washington.</li>
+<li><strong>Dec 2025</strong> — Paper published in Phys. Rev. D: <em>Impact of Neutrino Flavor Conversions on Neutron Star Merger Dynamics, Ejecta, Nucleosynthesis, and Multi-Messenger Signals</em> [<a target="_blank" rel="noopener" href="https://doi.org/10.1103/qckq-78gt">DOI</a>]; virtual talk at <em>Neutrinos from Home</em>; received the David C. Duncan, Downsbrough, Troxell, and W. Donald Miller Graduate Fellowships.</li>
+<li><strong>Nov 2025</strong> — Received the <a target="_blank" rel="noopener" href="https://igc.psu.edu/announcements/mebus_and_frymoyer_scholarships-2025-11-18/">Edward M. Frymoyer Honors Award</a>, Eberly College of Science; invited seminar at the University of Tennessee, Knoxville.</li>
+<li><strong>Oct 2025</strong> — New paper on arXiv: <em>Impact of Neutrino Flavor Conversions on Neutron Star Merger Dynamics, Ejecta, Nucleosynthesis, and Multi-Messenger Signals</em> [<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2510.15028">arXiv:2510.15028</a>]</li>
+<li><strong>Sep 2025</strong> — Our PRL on neutrino flavor transformation in neutron star mergers was featured by <a target="_blank" rel="noopener" href="https://www.psu.edu/news/eberly-college-science/story/mixing-neutrinos-colliding-neutron-stars-changes-how-merger-unfolds">Penn State News</a> and later as a <a target="_blank" rel="noopener" href="https://www.energy.gov/science/np/articles/when-neutron-stars-collide-neutrinos-change-flavors">DOE Office of Science highlight</a>.</li>
+<li><strong>Aug 2025</strong> — <em>Neutrino Flavor Transformation in Neutron Star Mergers</em> published in Phys. Rev. Lett. as an <strong>Editors' Suggestion</strong> [<a target="_blank" rel="noopener" href="https://doi.org/10.1103/h2q7-kn3v">DOI</a>]</li>
+<li><strong>Jul 2025</strong> — Talk at <a target="_blank" rel="noopener" href="https://sites.google.com/fullerton.edu/gwmeetsnuclearastrophysics/">GravNu 2025: Gravitational-Wave Astronomy Meets Nuclear Astrophysics</a>, Cal State Fullerton.</li>
+<li><strong>Jun 2025</strong> — Poster at the <a target="_blank" rel="noopener" href="https://relastro-school-2025.caltech.edu">Caltech Relativistic Astrophysics Summer School</a>; received the Dean of the Graduate School Student Scholarship; started mentoring REU students.</li>
+<li><strong>May 2025</strong> — Participated in the ALCF INCITE GPU Hackathon, Argonne National Laboratory.</li>
+<li><strong>Apr 2025</strong> — Talk at the 7th Neighborhood Workshop, Penn State.</li>
+<li><strong>Mar 2025</strong> — New paper on arXiv: <em>Neutrino Flavor Transformation in Neutron Star Mergers</em> [<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2503.11758">arXiv:2503.11758</a>]; talk at the APS Global Physics Summit, Anaheim.</li>
+<li><strong>Feb 2025</strong> — Seminar at the Primordial Universe and Gravity (PUG) series, Institute for Gravitation and the Cosmos, Penn State.</li>
+<li><strong>Oct 2024</strong> — Invited seminar at the University of Tennessee, Knoxville.</li>
+<li><strong>Aug 2024</strong> — Poster at CAMPS 2024, University of Chicago; became Professional Development Co-Chair of Physics and Astronomy for Women+ (PAW+).</li>
+<li><strong>Apr 2024</strong> — Talks at the APS April Meeting (Sacramento) and the 6th Neighborhood Workshop, Penn State; received the DGRA V Student Travel Award.</li>
+<li><strong>Mar 2024</strong> — <em>Linear versus nonlinear modeling of black hole ringdowns</em> published in Phys. Rev. D [<a target="_blank" rel="noopener" href="https://doi.org/10.1103/PhysRevD.109.064075">DOI</a>]; PUG seminar at Penn State.</li>
+<li><strong>Dec 2023</strong> — New paper on arXiv: <em>Linear vs. nonlinear modelling of black hole ringdowns</em> [<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2312.15904">arXiv:2312.15904</a>]</li>
+<li><strong>Jul 2023</strong> — Talk on quantum kinetic equations of neutrino oscillations at the <a target="_blank" rel="noopener" href="https://n3as.berkeley.edu/events/summer-school/_2023/">N3AS Summer School</a>, UC Santa Cruz.</li>
+<li><strong>May 2023</strong> — PUG seminar at the Institute for Gravitation and the Cosmos, Penn State.</li>
+<li><strong>Fall 2022</strong> — Started my Ph.D. in Physics at Penn State.</li>
+<li><strong>May 2022</strong> — New paper on arXiv: <em>Amplitude modulation in binary gravitational lensing of gravitational waves</em> [<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2205.01682">arXiv:2205.01682</a>]</li>
+<li><strong>2021</strong> — Received my B.S. in Applied Physics from Dalian University of Technology; joined Nanjing University as a research assistant in astronomy.</li>
+</ul>
+<p>See all <a href="/Publications">publications</a>.</p>
+</article></div></main><div class="nav-wrap"><div class="nav"><button class="site-nav"><div class="navicon"></div></button><ul class="nav_items"><li class="nav_item"><a class="nav-page" href="/research"> Research</a></li><li class="nav_item"><a class="nav-page" href="/Publications"> Publications</a></li><li class="nav_item"><a class="nav-page" href="/About-me"> About Me</a></li><li class="nav_item"><a class="nav-page" href="/Blogs-Notes"> Blogs</a></li><li class="nav_item"><a class="nav-page" href="/arXiv%20Daily-2025/"> ArXiv Notes</a></li><li class="nav_item"><a class="nav-page" href="/Gallery"> Gallery</a></li></ul></div><div class="cd-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></div><footer id="page_footer"><div class="footer_wrap"><div class="copyright">&copy;2020 - 2026 by Yi Qiu</div><div class="theme-info">Powered by <a target="_blank" href="https://hexo.io" rel="nofollow noopener">Hexo</a> & <a target="_blank" href="https://github.com/PhosphorW/hexo-theme-academia" rel="nofollow noopener">Academia Theme</a></div></div><script>window.VISITOR_ENDPOINT = "";</script><script>// Dark mode: follow the browser's setting unless the visitor has picked a theme with the toggle.
+// The initial theme is already set in <head> (layout.pug) to avoid a flash.
+(function () {
+    var toggle = document.querySelector('input#theme-switch[type="checkbox"]');
+    var media = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+    var KEY = 'theme-choice';
 
-function detectColorScheme() {
-    var theme = "light"; // default
+    function systemTheme() { return media && media.matches ? 'dark' : 'light'; }
+    function storedChoice() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
 
-    // get last used theme from local cache
-    if (localStorage.getItem("theme")) {
-        if (localStorage.getItem("theme") === "dark") {
-            theme = "dark";
-        }
-    } else if (!window.matchMedia) {
-        // matchMedia not supported  
-        return false;
-    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-        // OS has set Dark Mode
-        theme = "dark";
+    function apply(theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+        if (toggle) toggle.checked = theme === 'dark';
     }
 
-    // set detected theme
-    if (theme === "dark") {
-        setThemeDark();
-    } else {
-        setThemeLight();
+    apply(storedChoice() || systemTheme());
+
+    if (toggle) {
+        toggle.addEventListener('change', function (e) {
+            var theme = e.target.checked ? 'dark' : 'light';
+            // Choosing the same theme as the browser means "back to automatic"
+            try {
+                if (theme === systemTheme()) localStorage.removeItem(KEY);
+                else localStorage.setItem(KEY, theme);
+            } catch (err) {}
+            apply(theme);
+        });
     }
-}
 
-function setThemeDark() {
-    localStorage.setItem('theme', 'dark');
-    document.documentElement.setAttribute('data-theme', 'dark');
-    toggleTheme.checked = true;
-}
-
-function setThemeLight() {
-    localStorage.setItem('theme', 'light');
-    document.documentElement.setAttribute('data-theme', 'light');
-    toggleTheme.checked = false;
-}
-
-// Listener for theme change by toggle
-toggleTheme.addEventListener('change', function (e) {
-    if (e.target.checked) {
-        setThemeDark();
-    } else {
-        setThemeLight();
+    if (media) {
+        var onChange = function () { if (!storedChoice()) apply(systemTheme()); };
+        if (media.addEventListener) media.addEventListener('change', onChange);
+        else if (media.addListener) media.addListener(onChange);
     }
-}, false);
-
-// Listener for theme change by OS
-var toggleOS = window.matchMedia('(prefers-color-scheme: dark)');
-toggleOS.addEventListener('change', function (e) {
-    if (e.matches) {
-        setThemeDark();
-    } else {
-        setThemeLight();
-    }
-});
-
-// call theme detection
-detectColorScheme();</script></footer><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js"></script><script src="/js/main.js"></script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script></body></html>
+})();</script></footer><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js"></script><script src="/js/main.js"></script><script src="/js/visitors.js"></script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script></body></html>

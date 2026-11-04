@@ -1,70 +1,92 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"><title>Yi's Website</title><meta name="author" content="Yi Qiu"><link rel="shortcut icon" href="/img/favicon.png"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><!-- hexo injector head_end start -->
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"><title>Yi's Website</title><script>(function () {
+    var choice = null;
+    try { choice = localStorage.getItem("theme-choice"); localStorage.removeItem("theme"); } catch (e) {}
+    var dark = choice ? choice === "dark" : !!(window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
+    document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+})();</script><meta name="author" content="Yi Qiu"><link rel="shortcut icon" href="/img/favicon.png"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"><!-- hexo injector head_end start -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
-<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0"></head><body><header id="page_header"><div class="header_wrap"><div id="blog_name"><a class="blog_title" id="site-name" href="/">Yi's Website</a></div><button class="menus_icon"><div class="navicon"></div></button><ul class="menus_items"><li class="menus_item"><a class="site-page" href="/research"> Research Experiences</a></li><li class="menus_item"><a class="site-page" href="/About-me"> About Me</a></li><li class="menus_item"><a class="site-page" href="/Blogs-Notes"> Blogs</a></li><li class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://yiqiu99.github.io/arXiv Daily/"> ArXiv Notes</a></li><li class="menus_item"><a class="site-page" href="/Gallery"> Gallery</a></li></ul><!-- Theme Switcher (added here)--><div id="header-theme"><input type="checkbox" id="theme-switch"><label for="theme-switch"></label></div></div></header><main id="page_main"><div class="side-card sticky"><div class="card-wrap" itemscope itemtype="http://schema.org/Person"><div class="author-avatar"><img class="avatar-img" src="/img/MEold.JPG" onerror="this.onerror=null;this.src='/img/MEold.JPG'" alt="avatar"></div><div class="author-discrip"><h3>Yi Qiu</h3><p class="author-bio">Ph.D. student in Physics Department of Pennsylvania State University.</p></div><div class="author-links"><button class="btn m-social-links">Links</button><ul class="social-links"><li><a class="e-social-link" href="mailto:yiqiu@psu.edu" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i><span>yiqiu@psu.edu</span></a></li></ul></div><a class="cv-links" href="/attaches/CV_2025.pdf" target="_blank"><i class="fas fa-file-pdf" aria-hidden="true"><span>My CV</span></i></a></div></div><div class="page" itemscope itemtype="http://schema.org/CreativeWork"><h2 class="page-title"></h2><article><h2 id="Research-experiences"><a href="#Research-experiences" class="headerlink" title="Research experiences"></a>Research experiences</h2><ol>
-<li><a target="_blank" rel="noopener" href="https://yiqiu99.github.io/Innovation-program/">Application of machine learning in Quantum field theory</a></li>
-<li><a target="_blank" rel="noopener" href="https://yiqiu99.github.io/CUPT">Chinese Undergraduate Physics Tournamen (CUPT)</a></li>
-<li><a target="_blank" rel="noopener" href="https://yiqiu99.github.io/Summer-Internship">Summer Internship in Chinese Academy of Science</a></li>
-<li><a target="_blank" rel="noopener" href="https://yiqiu99.github.io/Bachelor-thesis">Bachelor thesis</a></li>
-<li><a target="_blank" rel="noopener" href="https://yiqiu99.github.io/Summer-Internship-AEI">Summer Internship in AEI Hannover (remotely)</a></li>
-<li><a target="_blank" rel="noopener" href="https://yiqiu99.github.io/NJU-Internship">NJU-Internship</a></li>
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0"></head><body><header id="page_header"><div class="header_wrap"><div id="blog_name"><a class="blog_title" id="site-name" href="/">Yi's Website</a></div><button class="menus_icon"><div class="navicon"></div></button><ul class="menus_items"><li class="menus_item"><a class="site-page" href="/research"> Research</a></li><li class="menus_item"><a class="site-page" href="/Publications"> Publications</a></li><li class="menus_item"><a class="site-page" href="/About-me"> About Me</a></li><li class="menus_item"><a class="site-page" href="/Blogs-Notes"> Blogs</a></li><li class="menus_item"><a class="site-page" href="/arXiv%20Daily-2025/"> ArXiv Notes</a></li><li class="menus_item"><a class="site-page" href="/Gallery"> Gallery</a></li></ul><!-- Theme Switcher (added here)--><div id="header-theme"><input type="checkbox" id="theme-switch"><label for="theme-switch"></label></div></div></header><main id="page_main"><div class="side-card sticky"><div class="card-wrap" itemscope itemtype="http://schema.org/Person"><div class="author-avatar"><img class="avatar-img" src="/img/MEold.JPG" onerror="this.onerror=null;this.src='/img/MEold.JPG'" alt="avatar"></div><div class="author-discrip"><h3>Yi Qiu</h3><p class="author-bio">Ph.D. candidate in Physics, The Pennsylvania State University.</p></div><div class="author-links"><button class="btn m-social-links">Links</button><ul class="social-links"><li><a class="e-social-link" href="mailto:yiqiu@psu.edu" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i><span>yiqiu@psu.edu</span></a></li><li><a class="e-social-link" href="https://orcid.org/0009-0008-0470-2460" target="_blank"><i class="ai ai-orcid" aria-hidden="true"></i><span>ORCID</span></a></li><li><a class="e-social-link" href="https://scholar.google.com/citations?user=n5VqXekAAAAJ" target="_blank"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a></li><li><a class="e-social-link" href="https://inspirehep.net/authors/2933736" target="_blank"><i class="icon-inspire" aria-hidden="true"></i><span>INSPIRE-HEP</span></a></li><li><a class="e-social-link" href="https://github.com/yiqiu0714" target="_blank"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a></li></ul></div><a class="cv-links" href="/attaches/CV_2026.pdf" target="_blank"><i class="fas fa-file-pdf" aria-hidden="true"><span>My CV</span></i></a></div></div><div class="page" itemscope itemtype="http://schema.org/CreativeWork"><h2 class="page-title">Research</h2><article><p>GW170817 established binary neutron star mergers as engines of relativistic jets and as sites of rapid neutron-capture (<em>r</em>-process) nucleosynthesis. I use 3D general-relativistic magnetohydrodynamic (GRMHD) simulations with neutrino transport to model compact object mergers and the multi-messenger signals they produce, to understand where the heaviest elements in our Universe are made and how matter behaves at extreme densities. I work with <a target="_blank" rel="noopener" href="https://personal.science.psu.edu/dur566/">Prof. David Radice</a> in the <a target="_blank" rel="noopener" href="https://sites.psu.edu/numrel/">Numerical Relativity group</a> at Penn State.</p>
+<h2 id="neutrino-flavor-transformation-in-neutron-star-mergers">Neutrino flavor transformation in neutron star mergers</h2>
+<p>Neutrinos set the electron fraction <em>Y</em><sub>e</sub> of merger outflows through their interactions with matter, and so decide both the <em>r</em>-process yields and the color of the kilonova. A major uncertainty has been the neglect of flavor conversions: in merger environments neutrinos can change flavor on nanosecond timescales, six orders of magnitude faster than the merger itself, which makes them very hard to include in global simulations.</p>
+<p>I performed the first merger simulations in which neutrino flavor transformation is treated self-consistently, by coupling two-moment (M1) neutrino transport to a Bhatnagar–Gross–Krook subgrid model that represents flavor oscillation as a relaxation process. I then extended this to long- and short-lived remnants, different equilibration timescales, and different mixing treatments, carrying each case through nucleosynthesis and multi-messenger signals. Flavor conversions drive the matter toward more neutron-rich conditions, producing up to <strong>300% more neutron-rich ejecta</strong> and boosting <em>r</em>-process yields by up to <strong>an order of magnitude</strong>.</p>
+<figure>
+<img src="/img/research/flavor_mixing_2x2.png" alt="Equatorial (x–y) and meridional (x–z) slices of a merger remnant with flavor mixing and without it (&quot;No-Mixing&quot;). Top: electron fraction and rest-mass density. Bottom: electron- and heavy-lepton neutrino number densities. From Qiu et al., Phys. Rev. Lett. 135, 091401 (2025)." /><figcaption aria-hidden="true">Equatorial (x–y) and meridional (x–z) slices of a merger remnant with flavor mixing and without it ("No-Mixing"). Top: electron fraction and rest-mass density. Bottom: electron- and heavy-lepton neutrino number densities. From Qiu et al., Phys. Rev. Lett. 135, 091401 (2025).</figcaption>
+</figure>
+<ul>
+<li>Y. Qiu, D. Radice, S. Richers, M. Bhattacharyya, <em>Neutrino Flavor Transformation in Neutron Star Mergers</em>, Phys. Rev. Lett. <strong>135</strong>, 091401 (2025), <strong>Editors' Suggestion</strong> [<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2503.11758">arXiv</a>] [<a target="_blank" rel="noopener" href="https://doi.org/10.1103/h2q7-kn3v">DOI</a>]</li>
+<li>Y. Qiu et al., <em>Impact of Neutrino Flavor Conversions on Neutron Star Merger Dynamics, Ejecta, Nucleosynthesis, and Multi-Messenger Signals</em>, Phys. Rev. D <strong>112</strong>, 123039 (2025) [<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2510.15028">arXiv</a>] [<a target="_blank" rel="noopener" href="https://doi.org/10.1103/qckq-78gt">DOI</a>]</li>
+</ul>
+<h2 id="gpu-accelerated-neutrino-transport-and-machine-learned-microphysics">GPU-accelerated neutrino transport and machine-learned microphysics</h2>
+<p>Building on its predecessor THC M1, I led the porting and development of the open-source, GPU-portable M1 neutrino transport module in <a target="_blank" rel="noopener" href="https://github.com/IAS-Astrophysics/athenak">AthenaK</a>, which is now used for production merger simulations. Profiling showed that the neutrino reaction rates, supplied by the <code>bns_nurates</code> library, consumed about 70% of the kernel time. I therefore developed a <strong>hybrid neural-network emulator</strong> that replaces only the expensive two-dimensional reactions (pair processes, inelastic scattering, and bremsstrahlung) while keeping the cheap one-dimensional ones exact. It reproduces the rates to within a few percent and evaluates them roughly ten times faster. In a full merger simulation it recovers the remnant structure, ejecta composition, and neutrino luminosities and mean energies to within 5%, with a measured end-to-end speedup of 2.16.</p>
+<figure>
+<img src="/img/research/nn_emulator_architecture.png" alt="Architecture of the hybrid neural-network emulator: thermodynamic inputs pass through residual blocks to per-species heads that predict the emissivities and opacities used by the M1 scheme." /><figcaption aria-hidden="true">Architecture of the hybrid neural-network emulator: thermodynamic inputs pass through residual blocks to per-species heads that predict the emissivities and opacities used by the M1 scheme.</figcaption>
+</figure>
+<p>With this code we are building a catalog of more than a thousand GRMHD binary neutron star and black hole–neutron star simulations with M1 transport, to study mass ejection and gravitational waves systematically. I also contribute to extending the reaction set to muon neutrinos, to machine-learned predictions of flavor mixing, and to modeling the chiral magnetic effect.</p>
+<ul>
+<li>Y. Qiu, D. Radice, R. Ferrari, A. Perego, <em>A Hybrid Neural Network Emulator for M1 Neutrino Reaction Rates in Binary Neutron Star Merger Simulations</em>, submitted (2026) [<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2610.28740">arXiv</a>]</li>
+<li>Y. Qiu, M. Bhattacharyya, D. Radice, <em>Performance-portable moment-based neutrino transport with AthenaK</em>, in preparation.</li>
+</ul>
+<h2 id="gravitational-wave-modeling">Gravitational-wave modeling</h2>
+<p><strong>Nonlinear black hole ringdowns.</strong> Using numerical-relativity binary black hole waveforms and Bayesian model selection, I showed that nonlinear ringdown models describe the early post-merger signal better than adding linear overtones, which matters for tests of general relativity with ringdowns.</p>
+<ul>
+<li>Y. Qiu, X. Jiménez Forteza, P. Mourier, <em>Linear versus nonlinear modeling of black hole ringdowns</em>, Phys. Rev. D <strong>109</strong>, 064075 (2024) [<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2312.15904">arXiv</a>] [<a target="_blank" rel="noopener" href="https://doi.org/10.1103/PhysRevD.109.064075">DOI</a>]</li>
+</ul>
+<p><strong>Gravitational lensing by supermassive black hole binaries.</strong> I simulated gravitational waves propagating past an inspiraling supermassive black hole binary acting as a lens, and found amplitude modulations with waveform mismatches up to 9.18%, comparable to levels shown to be detectable.</p>
+<figure>
+<img src="/img/research/binary_lensing.png" alt="Gravitational waves from a source pass a binary lens on their way to LISA." /><figcaption aria-hidden="true">Gravitational waves from a source pass a binary lens on their way to LISA.</figcaption>
+</figure>
+<ul>
+<li>Y. Qiu, K. Wang, J.-H. He, <em>Amplitude modulation in binary gravitational lensing of gravitational waves</em>, preprint (2022) [<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2205.01682">arXiv</a>]</li>
+</ul>
+<h2 id="current-directions">Current directions</h2>
+<ul>
+<li><strong>Long-duration mergers:</strong> 1–2 second binary neutron star merger simulations combining full M1 transport with GRMHD, following the co-evolution of the neutrino-driven wind and a possible jet, and turning the ejecta into <em>r</em>-process yields and kilonova light curves.</li>
+<li><strong>Magnetic field amplification:</strong> high-resolution GRMHD + M1 runs (down to ~23 m) to see how magnetic fields are amplified after merger, whether they saturate, and whether a jet is launched.</li>
+<li><strong>Beyond two-moment transport:</strong> 3D merger simulations with Boltzmann neutrino transport in AthenaK, to quantify the error budget of the M1 approximation and to evolve neutrino quantum kinetics (flavor coherence) directly.</li>
+<li><strong>Faster microphysics:</strong> compact neural-network kernels (Kolmogorov–Arnold networks) that can be inlined into GPU code, so that the cost of exact neutrino transport is no longer dominated by microphysics.</li>
+</ul>
+<p>See all <a href="/Publications">publications</a>.</p>
+<h2 id="research-before-graduate-school">Research before graduate school</h2>
+<ol type="1">
+<li><a href="/NJU-Internship">Solving Einstein's equations with the finite element method</a> — research assistant, Nanjing University (2021–2022)</li>
+<li><a href="/Summer-Internship-AEI">Testing the uncertainty of ringdown overtone models</a> — remote summer internship, AEI Hannover (2021)</li>
+<li><a href="/Bachelor-thesis">Gravitational waves in scalar-vector-tensor gravity</a> — B.S. thesis, Dalian University of Technology (2021)</li>
+<li><a href="/Summer-Internship">Experimental nuclear astrophysics</a> — summer internship, Institute of Modern Physics, Chinese Academy of Sciences (2020)</li>
+<li><a href="/CUPT">China Undergraduate Physics Tournament (CUPT)</a></li>
+<li><a href="/Innovation-program/">Application of machine learning in quantum field theory</a> — undergraduate innovation program</li>
 </ol>
-</article></div></main><div class="nav-wrap"><div class="nav"><button class="site-nav"><div class="navicon"></div></button><ul class="nav_items"><li class="nav_item"><a class="nav-page" href="/research"> Research Experiences</a></li><li class="nav_item"><a class="nav-page" href="/About-me"> About Me</a></li><li class="nav_item"><a class="nav-page" href="/Blogs-Notes"> Blogs</a></li><li class="nav_item"><a class="nav-page" target="_blank" rel="noopener" href="https://yiqiu99.github.io/arXiv Daily/"> ArXiv Notes</a></li><li class="nav_item"><a class="nav-page" href="/Gallery"> Gallery</a></li></ul></div><div class="cd-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></div><footer id="page_footer"><div class="footer_wrap"><div class="copyright">&copy;2020 - 2025 by Yi Qiu</div><div class="theme-info">Powered by <a target="_blank" href="https://hexo.io" rel="nofollow noopener">Hexo</a> & <a target="_blank" href="https://github.com/PhosphorW/hexo-theme-academia" rel="nofollow noopener">Academia Theme</a></div></div><script>// Include the dark mode toggle JavaScript file
-const toggleTheme = document.querySelector('input#theme-switch[type="checkbox"]');
+</article></div></main><div class="nav-wrap"><div class="nav"><button class="site-nav"><div class="navicon"></div></button><ul class="nav_items"><li class="nav_item"><a class="nav-page" href="/research"> Research</a></li><li class="nav_item"><a class="nav-page" href="/Publications"> Publications</a></li><li class="nav_item"><a class="nav-page" href="/About-me"> About Me</a></li><li class="nav_item"><a class="nav-page" href="/Blogs-Notes"> Blogs</a></li><li class="nav_item"><a class="nav-page" href="/arXiv%20Daily-2025/"> ArXiv Notes</a></li><li class="nav_item"><a class="nav-page" href="/Gallery"> Gallery</a></li></ul></div><div class="cd-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></div><footer id="page_footer"><div class="footer_wrap"><div class="copyright">&copy;2020 - 2026 by Yi Qiu</div><div class="theme-info">Powered by <a target="_blank" href="https://hexo.io" rel="nofollow noopener">Hexo</a> & <a target="_blank" href="https://github.com/PhosphorW/hexo-theme-academia" rel="nofollow noopener">Academia Theme</a></div></div><script>window.VISITOR_ENDPOINT = "";</script><script>// Dark mode: follow the browser's setting unless the visitor has picked a theme with the toggle.
+// The initial theme is already set in <head> (layout.pug) to avoid a flash.
+(function () {
+    var toggle = document.querySelector('input#theme-switch[type="checkbox"]');
+    var media = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+    var KEY = 'theme-choice';
 
-function detectColorScheme() {
-    var theme = "light"; // default
+    function systemTheme() { return media && media.matches ? 'dark' : 'light'; }
+    function storedChoice() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
 
-    // get last used theme from local cache
-    if (localStorage.getItem("theme")) {
-        if (localStorage.getItem("theme") === "dark") {
-            theme = "dark";
-        }
-    } else if (!window.matchMedia) {
-        // matchMedia not supported  
-        return false;
-    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-        // OS has set Dark Mode
-        theme = "dark";
+    function apply(theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+        if (toggle) toggle.checked = theme === 'dark';
     }
 
-    // set detected theme
-    if (theme === "dark") {
-        setThemeDark();
-    } else {
-        setThemeLight();
+    apply(storedChoice() || systemTheme());
+
+    if (toggle) {
+        toggle.addEventListener('change', function (e) {
+            var theme = e.target.checked ? 'dark' : 'light';
+            // Choosing the same theme as the browser means "back to automatic"
+            try {
+                if (theme === systemTheme()) localStorage.removeItem(KEY);
+                else localStorage.setItem(KEY, theme);
+            } catch (err) {}
+            apply(theme);
+        });
     }
-}
 
-function setThemeDark() {
-    localStorage.setItem('theme', 'dark');
-    document.documentElement.setAttribute('data-theme', 'dark');
-    toggleTheme.checked = true;
-}
-
-function setThemeLight() {
-    localStorage.setItem('theme', 'light');
-    document.documentElement.setAttribute('data-theme', 'light');
-    toggleTheme.checked = false;
-}
-
-// Listener for theme change by toggle
-toggleTheme.addEventListener('change', function (e) {
-    if (e.target.checked) {
-        setThemeDark();
-    } else {
-        setThemeLight();
+    if (media) {
+        var onChange = function () { if (!storedChoice()) apply(systemTheme()); };
+        if (media.addEventListener) media.addEventListener('change', onChange);
+        else if (media.addListener) media.addListener(onChange);
     }
-}, false);
-
-// Listener for theme change by OS
-var toggleOS = window.matchMedia('(prefers-color-scheme: dark)');
-toggleOS.addEventListener('change', function (e) {
-    if (e.matches) {
-        setThemeDark();
-    } else {
-        setThemeLight();
-    }
-});
-
-// call theme detection
-detectColorScheme();</script></footer><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js"></script><script src="/js/main.js"></script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script></body></html>
+})();</script></footer><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js"></script><script src="/js/main.js"></script><script src="/js/visitors.js"></script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script></body></html>

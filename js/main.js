@@ -62,6 +62,32 @@ $(function () {
     });
 
     // pjax
+    // Collapse the homepage "News" list after the first few items
+    function foldNews() {
+        var NEWS_VISIBLE = 3;
+        var heading = document.getElementById('news');
+        if (!heading) return;
+        var list = heading.nextElementSibling;
+        while (list && list.tagName !== 'UL') list = list.nextElementSibling;
+        if (!list || list.dataset.folded) return;
+        var items = list.children;
+        if (items.length <= NEWS_VISIBLE) return;
+        list.dataset.folded = '1';
+        var hidden = items.length - NEWS_VISIBLE;
+        for (var i = NEWS_VISIBLE; i < items.length; i++) items[i].classList.add('news-older');
+        list.classList.add('news-collapsed');
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'news-toggle';
+        btn.textContent = 'Show older news (' + hidden + ')';
+        btn.addEventListener('click', function () {
+            var collapsed = list.classList.toggle('news-collapsed');
+            btn.textContent = collapsed ? 'Show older news (' + hidden + ')' : 'Show less';
+        });
+        list.parentNode.insertBefore(btn, list.nextSibling);
+    }
+    foldNews();
+
     $(document).pjax('a[target!=_blank]','.page', {
         fragment: '.page',
         timeout: 5000
@@ -73,6 +99,7 @@ $(function () {
             }, 700);
         },
         'pjax:end': function() {
+            foldNews();
             if ($(".header_wrap").hasClass("menus-open")) {
                 $(".header_wrap").removeClass("menus-open").addClass("menus-close")
             }

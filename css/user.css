@@ -255,3 +255,9 @@ ul.news-collapsed li.news-older {
 [data-theme="dark"] .social-links .e-social-link .icon-inspire {
   box-shadow: 0 0 0 1px #6b7a8a;
 }
+#hbePass {
+  color: #333;
+}
+[data-theme="dark"] #hbePass {
+  color: #eee;
+}
